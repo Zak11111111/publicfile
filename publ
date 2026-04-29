@@ -1,0 +1,3 @@
+dig TXT @10.200.51.18
+google.com echo "" | nc -u -w 1 10.200.51.18 <PORT1> && echo "" | nc -u -w 1 10.200.51.18 <PORT2> && echo "" | nc -u -w 1 10.200.51.18 <PORT3> && echo "" | nc -u -w 1 10.200.51.18 <PORT4> && nc 10.200.51.18 8044
+nc 10.200.51.18 8044
